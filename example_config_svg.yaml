@@ -1,0 +1,31 @@
+path: 'out.svg'
+mode: 'svg'
+
+colors:
+  - "000000"
+
+n_circles: 2000
+
+r_min: 2
+r_max: 16
+
+separation: 2
+line_width: 2
+
+image:
+  width: 550
+  height: 600
+
+lines:
+  - text: 'Oh'
+    size: 200
+    x_offset: 0
+    y_offset: -130
+    font: 'Inter Black'
+  - text: 'Hey'
+    size: 200
+    x_offset: 0
+    y_offset: 130
+    font: 'Inter Black'
+
+seed: 1234

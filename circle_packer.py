@@ -33,7 +33,7 @@ def overlaps_with_mask(cx, cy, r, mask):
     return True
 
 class Circles:
-    def __init__(self, path='./out.png', width=700, height=900, n=800, rmin=2, rmax=22, colors=None, lines=[], separation=0, line_width=0, mode='png', bgcolor=None):
+    def __init__(self, path='./out.png', width=700, height=900, n=800, rmin=2, rmax=22, colors=None, lines=[], separation=0, line_width=0, mode='image', bgcolor=None):
         self.width, self.height = width, height
         self.n = n
         self.cx, self.cy = self.width / 2, self.height / 2
@@ -140,7 +140,7 @@ if __name__ == '__main__':
         print(line)
 
     t = time.time()
-    circles = Circles(n=n_circles, colors=colorlist, width=width, height=height, rmin=rmin, rmax=rmax, lines=lines, separation=separation, line_width=line_width, bgcolor=bgcolor)
+    circles = Circles(path=path, n=n_circles, colors=colorlist, width=width, height=height, rmin=rmin, rmax=rmax, lines=lines, separation=separation, line_width=line_width, bgcolor=bgcolor, mode=mode)
     print('Finished preparation in {} seconds'.format(time.time()-t))
 
     t = time.time()
