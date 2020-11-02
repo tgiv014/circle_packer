@@ -1,0 +1,26 @@
+colors:
+  - "779e94"
+  - "5f6e73"
+  - "2a2b2b"
+  - "5e7fb8"
+  - "384f70"
+
+n_circles: 2000
+
+r_min: 2
+r_max: 16
+
+separation: 0
+
+image:
+  width: 1850
+  height: 350
+
+lines:
+  - text: 'circle_packer'
+    size: 200
+    x_offset: 0
+    y_offset: 0
+    font: 'Inter Black'
+
+seed: 1234
