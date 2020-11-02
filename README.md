@@ -12,3 +12,6 @@ With configuration changes, the project supports drawing both PNG and SVG files.
 5. Check if the new circle would overlap any already placed circles. If the circle would overlap another, pick a new point and retry. There is a limit on how many retries will occur.
 6. Save the new circle to a list.
 7. After all radii have been attempted, loop through the list of placed circles and render them.
+
+# SVG Example
+![Oh Hey](static/oh_hey.svg)
